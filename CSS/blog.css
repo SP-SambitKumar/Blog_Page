@@ -1,0 +1,89 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:bisque;
+}
+h1{
+    background-color: yellow;
+    color: #002;;
+    text-align: center;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: rgb(134, 193, 33);}
+    50%  {background-color: blue;}
+    100% {background-color: rgb(185, 123, 25);}
+}
+p{
+    text-align: justify;
+}
+h2{
+    text-align: center;
+    /* border: 2px solid black;
+    border-radius: 20px; */
+    background: linear-gradient(135deg, #c31e1e, #bcc516)
+}
+.img{
+    border-radius: 30px;
+    box-shadow: 4px 4px 8px black;
+    transition: transform 0.2s;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+}
+
+h1{
+    box-shadow: 4px 4px 8px black;
+    border-radius: 20px;
+    border: 2px solid #7f9c80;
+}
+footer,.a1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+footer{
+    width: 100vw;
+    height: 10vh;
+    padding-top: 40px;
+    text-decoration: none;
+}
+header{
+    padding: 10px;
+    font-size: 45px;
+    margin-bottom: 40px;
+    color: rgb(142, 100, 15);
+    text-shadow: 4px 4px 4px  #333;
+    text-align: center;
+    box-shadow: 4px 4px 4px  #333;
+    border-radius: 30px;
+    margin-top: 40px;
+    background: linear-gradient(135deg, #7f9c80, #39b9c8);
+}
+header:hover{
+    transition: 2s;
+}
+    
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 30px ;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 8px #221b1b;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.container:hover{
+    transition: 2s;
+}
+/*
+background: linear-gradient(135deg, #d31717, #dcddcc, #15279a); */
